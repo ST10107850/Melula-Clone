@@ -1,4 +1,4 @@
-import { MdOutlineShoppingCart } from "react-icons/md";
+import { FaShoppingCart } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { motion } from "framer-motion";
@@ -55,7 +55,7 @@ export const Navbar = () => {
                         <li><a href="/shop" className="hidden md:flex hover:text-gray-300">SHOP</a></li>
                         <li><a href="/about" className="hidden md:flex hover:text-gray-300">ABOUT</a></li>
                         <div className="flex items-center relative">
-                            <MdOutlineShoppingCart className="md:h-[35px] md:w-[35px] w-[30px] h-[30px] md:hidden" />
+                            <FaShoppingCart  className="md:h-[35px] md:w-[35px] w-[30px] h-[30px] md:hidden" />
                             <div className="absolute bg-[#fbb498] top-[-8px] right-[-8px] w-[28px] h-[28px] rounded-full md:hidden flex items-center justify-center">
                                 <p className="text-white text-[12px]">0</p>
                             </div>
@@ -63,7 +63,7 @@ export const Navbar = () => {
                     </ul>
                     <div className="flex items-center">
                         <div className="flex  items-center relative">
-                            <MdOutlineShoppingCart className="md:h-[35px] md:w-[35px] w-[30px] h-[30px] hidden md:flex" />
+                            <FaShoppingCart  className="md:h-[35px] md:w-[35px] w-[30px] h-[30px] hidden md:flex" />
                             <div className="absolute bg-[#fbb498] top-[-8px] right-[-8px] w-[28px] h-[28px] hidden rounded-full md:flex items-center justify-center">
                                 <p className="text-white text-[12px]">0</p>
                             </div>
