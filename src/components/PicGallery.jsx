@@ -4,7 +4,7 @@ export const PicGallery = () => {
    return (
       <>
          {/* First Container */}
-         <div className="flex md:flex-row flex-col w-full ">
+         <div className="flex md:flex-row flex-col w-full " data-aos="fade-down">
 
             <div className="w-full h-[60vh] md:h-[80vh]">
                <a href="/shop">
@@ -25,7 +25,7 @@ export const PicGallery = () => {
 
 
          {/* Second Container */}
-         <div className="flex md:flex-row flex-col ">
+         <div className="flex md:flex-row flex-col " data-aos="fade-up">
             <div className="md:w-[45vw] w-full h-auto">
                <a href="/shop">
                   <img className="w-full md:h-[40vh] h-[60vh] transition-transform" src="./pg4.jpg" alt="" />
@@ -44,7 +44,7 @@ export const PicGallery = () => {
          </div>
 
          {/* Third Container */}
-         <div className="flex md:flex-row flex-col ">
+         <div className="flex md:flex-row flex-col " data-aos="fade-down">
 
             <div className="w-full h-[60vh] md:h-[80vh]">
                <a href="/shop">

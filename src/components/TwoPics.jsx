@@ -2,8 +2,8 @@
 
 export const TwoPics = () => {
   return (
-    <div className="flex md:flex-row flex-col" data-aos="fade-up">
-      <div className="w-full h-[80vh]">
+    <div className="flex md:flex-row flex-col">
+      <div className="w-full h-[80vh]" data-aos="fade-right">
         <a href="/shop">
           <img
             className="w-full h-full transition-transform"
@@ -13,7 +13,7 @@ export const TwoPics = () => {
         </a>
       </div>
 
-      <div className="w-full h-[80vh]">
+      <div className="w-full h-[80vh]" data-aos="fade-left">
         <a href="/shop">
           <img
             className="w-full h-full  transition-transform"

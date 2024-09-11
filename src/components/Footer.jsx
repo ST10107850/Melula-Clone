@@ -2,8 +2,8 @@ import { FaFacebookF, FaInstagram, FaPinterest } from "react-icons/fa"
 
 export const Footer = () => {
   return (
-      <div className='bg-[#002d5a] px-[100px] py-[50px] flex justify-center'>
-          <div className='flex flex-col'>
+      <div className='bg-[#002d5a] px-[100px] py-[50px] flex justify-center' >
+          <div className='flex flex-col' data-aos="zoom-in">
               <div className='text-white py-[20px] space-x-4'>
                   <span className='text-[#2ff4b2]'>
                       Melula
